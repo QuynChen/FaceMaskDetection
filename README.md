@@ -65,12 +65,12 @@ Bộ dữ liệu gồm 853 ảnh, có định dạng PNG với đa dạng kích 
 
 **Kết quả đánh giá mô hình dựa trên độ đo mAP của các phương pháp thực nghiệm**
 
-| Method       | Backbone  | Style     | Epoch | Lr      | box AP   |   Config      |  Model        |
-| :----------: | :-------: | :-------: | :---: | :-----: | :------: | :-----------: | :-----------: |
-| Faster RCNN  | ResNet 50 | Pytorch   |   40  |   0.01  | 0.508    | [config]()    | [model]()     |
-| YOLOv3       | Darknet 53| Pytorch   |   273 |   0.001 | 0.369    | [config]()    | [model]()     |
-| YOLOv5       | CSPDarknet| Pytorch   |   200 |   0.01  | 0.57     | [config]()    | [model]()     |
-| YOLOF        | ResNet 50 | Caffe     |   32  |   0.01  | 0.445    | [config]()    | [model]()     |
+| Method       | Backbone  | Style     | Epoch | Lr      | box AP   |   Config      | 
+| :----------: | :-------: | :-------: | :---: | :-----: | :------: | :-----------: | 
+| Faster RCNN  | ResNet 50 | Pytorch   |   40  |   0.01  | 0.508    | [config]()    |
+| YOLOv3       | Darknet 53| Pytorch   |   273 |   0.001 | 0.369    | [config]()    |
+| YOLOv5       | CSPDarknet| Pytorch   |   200 |   0.01  | 0.57     | [config]()    |
+| YOLOF        | ResNet 50 | Caffe     |   32  |   0.01  | 0.445    | [config]()    |
 
 **Kết quả đánh giá dựa trên độ đo mAP của các class:**
 
@@ -82,6 +82,8 @@ Bộ dữ liệu gồm 853 ảnh, có định dạng PNG với đa dạng kích 
 | YOLOF        | ResNet 50 |  0.544	      | 0.389	         | 0.404                  |   
 
 ## DEMO
+
+Để chạy demo streamlit, trước tiên cần tải file weight [Faster-RCNN](https://github.com/QuynChen/FaceMaskDetection/releases/download/FaceMaskDetectionModel/faster_rcnn.pth), [YOLOF](https://github.com/QuynChen/FaceMaskDetection/releases/download/FaceMaskDetectionModel/yolof.pth). Sau đó đặt các file weight vừa tải vào folder model trong DemoRecognize.
 
 ### Cài đặt môi trường
 
