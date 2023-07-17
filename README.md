@@ -67,10 +67,10 @@ Bộ dữ liệu gồm 853 ảnh, có định dạng PNG với đa dạng kích 
 
 | Method       | Backbone  | Style     | Epoch | Lr      | box AP   |   Config      | 
 | :----------: | :-------: | :-------: | :---: | :-----: | :------: | :-----------: | 
-| Faster RCNN  | ResNet 50 | Pytorch   |   40  |   0.01  | 0.508    | [config]()    |
-| YOLOv3       | Darknet 53| Pytorch   |   273 |   0.001 | 0.369    | [config]()    |
-| YOLOv5       | CSPDarknet| Pytorch   |   200 |   0.01  | 0.57     | [config]()    |
-| YOLOF        | ResNet 50 | Caffe     |   32  |   0.01  | 0.445    | [config]()    |
+| Faster RCNN  | ResNet 50 | Pytorch   |   40  |   0.01  | 0.508    | [config](https://github.com/QuynChen/FaceMaskDetection/blob/main/config/faster-rcnn_r50_fpn_1x_coco.py)    |
+| YOLOv3       | Darknet 53| Pytorch   |   273 |   0.001 | 0.369    | [config](https://github.com/QuynChen/FaceMaskDetection/blob/main/config/yolov3_d53_8xb8-320-273e_coco.py)    |
+| YOLOv5       | CSPDarknet| Pytorch   |   200 |   0.01  | 0.57     | [config](https://github.com/QuynChen/FaceMaskDetection/blob/main/config/yolov5s.yaml)    |
+| YOLOF        | ResNet 50 | Caffe     |   32  |   0.01  | 0.445    | [config](https://github.com/QuynChen/FaceMaskDetection/blob/main/config/yolof_r50-c5_8xb8-1x_coco.py)    |
 
 **Kết quả đánh giá dựa trên độ đo mAP của các class:**
 
