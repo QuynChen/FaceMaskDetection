@@ -1,0 +1,1 @@
+Tải file weight của faster-rcnn và yolof trước khi chạy Demo
