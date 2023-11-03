@@ -7,14 +7,6 @@
 
 <h1 align="center"><b>NHẬN DẠNG</b></h>
 
-## THÀNH VIÊN NHÓM
-
-| STT | MSSV        | Họ và Tên                 | Github                                             | Email                      |
-| :-: | :---------: | :-----------------------: | :------------------------------------------------: |:--------------------------:|
-| 1   | 20520731    | Trần Thị Mỹ Quyên         |[QuynChen](https://github.com/QuynChen)             | ttmyquyen.ns2002@gmail.com |
-| 2   | 21521514    | Nguyễn Thị Thùy           |[thuynguyen2003](https://github.com/thuynguyen2003) |thuynguyen28102003@gmail.com|
-| 3   | 21522477    | Phan Thành Phúc           |[tumble29](https://github.com/tumble29)             |21522477@gm.uit.edu.vn      |
-
 ## GIỚI THIỆU MÔN HỌC
 
 -   **Tên môn học:** Nhận Dạng 
